@@ -12,9 +12,10 @@
 #include "3_count_if.h"
 #include "4_find_if.h"
 #include "5_find_first_of.h"
+#include "6_mismatch.h"
 
 // INCOMPLETE
-#include "6_mismatch.h"
+
 #include "7_search.h"
 
 int main()
@@ -29,11 +30,11 @@ int main()
     //r4_error_C2819::run();
 
     r5::run();
+    r6::run();
 
     // INCOMPLETE NAMESPACES
-    r6::run();
+    
     r7::run();
-
     
     std::cin.get();
 }
